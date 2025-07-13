@@ -1,0 +1,772 @@
+@import url("webfonts/ChimeroRegular_aYGEg/stylesheet.css");
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: rgba(228,212,185,1.00);
+    padding-top: 17px;
+    padding-left: 40px;
+    padding-right: 20px;
+    text-indent: 5px;
+    text-align: left;
+}
+.container-fluid .container {
+    max-width: 1300px;
+}
+
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-brand .img-fluid {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: -1px;
+}
+
+.container-fluid {
+    background-color: rgba(0,0,0,1.00);
+}
+.container-fluid .container .navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(0,0,0,1.00) 100%);
+
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler .navbar-toggler-icon {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: rgba(228,212,185,1.00);
+}
+.hero-image .hero-text p {
+    text-align: center;
+    color: rgba(228,212,185,1.00);
+
+
+}
+.bento-item.item-4 .overlay h2 {
+}
+.hero-image .hero-text h1 {
+    font-family: "ChimeroRegular aYGEg";
+    color: rgba(228,212,185,1.00);
+}
+
+
+.hero-image .hero-text .btn.btn-outline-success.my-2.my-sm-0 {
+    color: rgba(255,255,255,1.00);
+}
+.hero .hero-image .hero-text {
+    border-radius: 41px;
+}
+  body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #a1130d;
+      color: white;
+    }
+
+    .banner {
+      background: url('images/story-banner.jpg') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 3rem 2rem;
+      gap: 2rem;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .section.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 16px;
+    }
+
+    .text {
+      max-width: 600px;
+      line-height: 1.6;
+    }
+
+    .quote {
+      text-align: center;
+      font-size: 1.8rem;
+      padding: 4rem 2rem;
+      font-style: italic;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .cta a {
+      background-color: white;
+      color: #a1130d;
+      padding: 0.75rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .artist-section {
+      padding: 3rem 2rem;
+      background-color: #b01510;
+    }
+
+    .artist-section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .artist-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    .artist-card {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .artist-card img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+
+    .artist-card h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .artist-card p {
+      font-size: 0.95rem;
+    }
+.footer-container .footer-column h4 {
+    color: rgba(228,212,185,1.00);
+}
+ul li a {
+    color: rgba(228,212,185,1.00);
+}
+ul li a {
+    color: rgba(228,212,185,1.00);
+}
+.section .text h2 {
+    font-family: "ChimeroRegular aYGEg";
+}
+.artist-section h2 {
+    font-family: "ChimeroRegular aYGEg";
+}
+.contact-section .contact-container h2 {
+    font-family: "ChimeroRegular aYGEg";
+}
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+    }
+
+
+
+
+.container {
+  position: relative;
+  text-align: top right;
+  color: white;
+}
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Use #111 or red if background is light */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional overlay */
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-family: 'Kaisei Tokumin', serif; /* example */
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.hero .hero-image .hero-text {
+    padding-left: 36px;
+
+}
+
+.btn:hover {
+  background-color: darkred;
+}
+.bento-item.item-6 .img-wrapper .grid-image {
+}
+.bento-container .bento-item.item-7 p {
+    font-family: "ChimeroRegular aYGEg";
+    color: rgba(228,212,185,1.00);
+}
+.bento-container .bento-item.item-8 p {
+    color: rgba(228,212,185,1.00);
+    font-family: "ChimeroRegular aYGEg";
+    font-size: x-large;
+    text-align: center;
+}
+.bento-item.item-4 .overlay h2 {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-4 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-5 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+}
+.bento-item.item-6 .overlay .btn {
+    color: rgba(228,212,185,1.00);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.hero-image .hero-text .btn.btn-outline-success.my-2.my-sm-0 {
+    color: rgba(228,212,185,1.00);
+}
+.contact-section .contact-container p {
+    color: rgba(228,212,185,1.00);
+}
+.contact-form .form-group label {
+    color: rgba(228,212,185,1.00);
+}
+.banner h1 {
+    font-family: "ChimeroRegular aYGEg";
+    color: rgba(228,212,185,1.00);
+}
+.hero-image .hero-text h1 {
+    color: rgba(255,255,255,1.00);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 768px) {
+      .bento-grid {
+        grid-template-columns: 1fr;
+      }
+
+
+    }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+.contact-container .contact-form .btn {
+    color: rgba(228,212,185,1.00);
+}
+
+
+  .hero-text p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    padding: 0.75rem 1rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem;
+  }
+}
+{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #a1130d;
+      color: white;
+    }
+
+    .banner {
+      background: url('images/products-banner.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .banner h1 {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 2.5rem;
+    }
+
+    .product-section {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Specific 2-column grid override */
+    .diy-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+      .diy-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .product-card {
+      background-color: #fff;
+      color: #111;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .product-card .card-body {
+      padding: 1rem;
+    }
+
+    .product-card h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .product-card button {
+      background-color: #a1130d;
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+    }
+
+    .product-card button:hover {
+      background-color: #7f0e0a;
+    }
+
+    @media (max-width: 600px) {
+      .banner h1 {
+        font-size: 1.8rem;
+      }
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #a1130d;
+      color: white;
+    }
+
+    .bento-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, minmax(100px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+.img-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Or use "contain" if you want no cropping */
+  display: block;
+}
+
+
+
+    .bento-item {
+      border-radius: 16px;
+      background-color: #3b0b0b;
+      padding: 1rem;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bento-item h2,
+    .bento-item h3,
+    .bento-item p {
+      margin-bottom: 0.5rem;
+    }
+
+    .bento-item .btn {
+      background-color: black;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .item-1 { grid-column: 1 / span 2; grid-row: 1 / span 2; background-image: url('images/blank-eye.png'); }
+    .item-2 { grid-column: 1 / span 2; grid-row: 3 / span 2; background-image: url('images/one-eye.png'); }
+    .item-3 { grid-column: 1 / span 2; grid-row: 5 / span 2; background-image: url('images/both-eyes.png'); }
+    .item-4 { grid-column: 3 / span 4; grid-row: 1 / span 3; background-image: url('images/daruma-main.jpg'); }
+    .item-5 { grid-column: 3 / span 2; grid-row: 4 / span 2; background-image: url('images/craftsmanship.jpg'); }
+    .item-6 { grid-column: 5 / span 2; grid-row: 4 / span 2; background-image: url('images/collection.jpg'); }
+    .item-7 { grid-column: 3 / span 2; grid-row: 6 / span 1; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+    .item-8 { grid-column: 5 / span 2; grid-row: 6 / span 1; display: flex; align-items: center; justify-content: center; background-image: url(''); background-size: contain; background-repeat: no-repeat; background-position: center; }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 1rem;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 1024px) {
+      .bento-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+      }
+      .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
+        grid-column: span 2;
+        grid-row: auto;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .bento-container {
+        grid-template-columns: 1fr;
+      }
+      .item-1, .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8 {
+        grid-column: span 1;
+        grid-row: auto;
+      }
+    }
+/* Fix image inside item-6 to fully show without cropping */
+.item-6 .grid-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+.btn:hover {
+  background-color: darkred;
+}
+	
+ *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #a1130d;
+      color: #fff;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-section {
+      background-color: #a1130d;
+      color: #fff;
+      padding: 4rem 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .contact-container h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: rgba(228, 212, 185, 1);
+    }
+
+    .contact-container p {
+      margin-bottom: 2rem;
+      font-size: 1.1rem;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      text-align: left;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+
+    input,
+    textarea {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+      color: #aaa;
+    }
+
+    button.btn {
+      align-self: flex-start;
+      background-color: #000;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      font-size: 1rem;
+    }
+
+    button.btn:hover {
+      background-color: darkred;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 1024px) {
+      .contact-container {
+        padding: 0 1rem;
+      }
+
+      .contact-container h2 {
+        font-size: 2rem;
+      }
+
+      .contact-container p {
+        font-size: 1rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .contact-section {
+        padding: 3rem 1rem;
+      }
+
+      .contact-container h2 {
+        font-size: 1.8rem;
+      }
+
+      .contact-container p {
+        font-size: 0.95rem;
+      }
+
+      input,
+      textarea {
+        font-size: 0.95rem;
+      }
+
+      button.btn {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+      }
+    }	
+footer {
+    background-color: #000;
+    color: #ccc;
+    padding: 3rem 2rem 2rem;
+    font-size: 0.95rem;
+    font-family: Arial, sans-serif;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .footer-column {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .footer-column h4 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-column ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #ccc;
+  }
+
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo-circle {
+    background-color: #a1130d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-logo p {
+    margin-top: 0.5rem;
+  }
+
+  .footer-dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5px 3px 0;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid #333;
+    padding-top: 1rem;
+    font-size: 0.85rem;
+  }
+
+  .footer-bottom a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footer-column {
+      width: 100%;
+    }
+  }
